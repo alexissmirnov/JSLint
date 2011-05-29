@@ -1,0 +1,16 @@
+{
+  "name": "jslint",
+  "version": "0.0.1",
+  "description": "JSLint as a Web Service",
+  "keywords": ["web", "node", "javascript", "programming"],
+  "repository": "git://github.com/alexissmirnov/JSLint.git",
+  "author": "Alexis Smirnov <alexis@smirnov.ca> (http://weblog.smirnov.ca)",
+  "dependencies": {
+    "express": ">= 2.3.10"
+  },
+  "devDependencies": {
+    "express": "2.3.10",
+  },
+  "main": "app",
+  "engines": { "node": ">= 0.4.1 < 0.5.0" }
+}
