@@ -6763,3 +6763,5 @@ loop:   for (;;) {
     return itself;
 
 }());
+
+module.exports = JSLINT;

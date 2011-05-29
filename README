@@ -1,3 +1,14 @@
+This branch implements a Node-based web service that runs JSLint. The API is simple:
+- POST JavaScript code to "/", the response is a JSON document of JSLint results.
+- GET "/" shows some human-readable help
+
+server.js contains a Node HTTP server
+service.js has a request handler
+test/test_service.js is a unit test for the service
+
+dependency: express framework http://expressjs.com  
+----------------
+
 JSLint, The JavaScript Code Quality Tool
 
 Douglas Crockford
